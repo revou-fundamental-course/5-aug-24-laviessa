@@ -1,1 +1,46 @@
 /* ini css*/
+
+main {
+    display: flex;
+}
+
+form {
+    padding: 12px;
+    background-color: blanchedalmond;
+}
+ 
+aside {
+    padding: 48px;
+}
+
+.form-data {
+    margin-bottom: 1px;
+}
+
+.form-button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.button.hitung {
+height: 30px;
+background-color: #eda695;
+}
+
+.button.reset {
+    height: 30px;
+    background-color: #770909;
+    color: beige;
+    }
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+}
